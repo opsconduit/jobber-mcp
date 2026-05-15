@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+coverage/
+*.log
+
+# Local business operations data. Keep prospects, replies, payments, and credentials out of git.
+ops/*.local.*
+ops/leads.csv
+ops/ledger.md
+ops/suppression-list.csv
+
