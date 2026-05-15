@@ -13,6 +13,8 @@ OpsConduit helps owners and operators ask practical questions about the tools th
 - What work needs attention this week?
 - Where is operational follow-up leaking revenue?
 
+More buyer-facing examples are in [docs/use-cases.md](docs/use-cases.md).
+
 ## Product Posture
 
 - Customer-hosted first.
