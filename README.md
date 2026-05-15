@@ -26,7 +26,11 @@ OpsConduit helps owners and operators ask practical questions about the tools th
 
 Early-access pricing is documented in [docs/offer.md](docs/offer.md).
 
+## Policies
+
+- [Terms of Service](docs/terms.md)
+- [Privacy Policy](docs/privacy.md)
+
 ## Status
 
 This repository is in setup phase. The first build target is a mock/demo mode, followed by a Jobber Developer Center OAuth test integration.
-
