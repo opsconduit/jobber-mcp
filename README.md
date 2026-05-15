@@ -39,6 +39,8 @@ npm start
 
 Fill `JOBBER_CLIENT_ID` and `JOBBER_CLIENT_SECRET` in `.env` before running the auth helper. The helper prints a Jobber OAuth URL, receives the local callback at `http://localhost:3333/oauth/callback`, and stores tokens in `.opsconduit/jobber-tokens.json`.
 
+Detailed setup notes are in [docs/install.md](docs/install.md). Paid pilot validation steps are in [docs/pilot-checklist.md](docs/pilot-checklist.md).
+
 ## MCP Tools
 
 - `jobber_auth_url` - build a Jobber OAuth URL.
