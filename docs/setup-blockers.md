@@ -14,12 +14,8 @@
   - $149 Async Install Help
   - $399 Pilot Setup
   - $79 Monthly Maintenance
-- Jobber app details from Developer Center:
-  - client ID
-  - client secret
-  - redirect URI allowed by the app
-  - any sandbox/test account notes
 - A safe way to send and receive OpsConduit Gmail without exposing credentials in docs or git.
+- At least one real Jobber OAuth authorization against the test account to validate live GraphQL queries.
 
 ## Security Note
 
@@ -32,4 +28,3 @@ The public repository must never store:
 - prospect lists
 - customer emails
 - payment records
-

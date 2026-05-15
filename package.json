@@ -1,0 +1,30 @@
+{
+  "name": "@opsconduit/jobber-mcp",
+  "version": "0.1.0",
+  "description": "Customer-hosted MCP server for read-only Jobber operations queries.",
+  "type": "module",
+  "bin": {
+    "opsconduit-jobber-mcp": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "auth": "node src/oauth-local.js",
+    "check": "node scripts/check-syntax.js",
+    "smoke": "node scripts/smoke-tools.js"
+  },
+  "keywords": [
+    "jobber",
+    "mcp",
+    "field-service",
+    "operations"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

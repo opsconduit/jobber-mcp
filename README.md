@@ -26,6 +26,28 @@ OpsConduit helps owners and operators ask practical questions about the tools th
 
 Early-access pricing is documented in [docs/offer.md](docs/offer.md).
 
+## Install
+
+Requires Node.js 20+.
+
+```bash
+npm install
+cp .env.example .env
+npm run auth
+npm start
+```
+
+Fill `JOBBER_CLIENT_ID` and `JOBBER_CLIENT_SECRET` in `.env` before running the auth helper. The helper prints a Jobber OAuth URL, receives the local callback at `http://localhost:3333/oauth/callback`, and stores tokens in `.opsconduit/jobber-tokens.json`.
+
+## MCP Tools
+
+- `jobber_auth_url` - build a Jobber OAuth URL.
+- `jobber_exchange_code` - exchange an OAuth code and store local tokens.
+- `jobber_refresh_token` - refresh the stored access token.
+- `jobber_account` - validate the connected account.
+- `jobber_clients_sample` - validate client read access.
+- `jobber_graphql_read` - run a read-only GraphQL query; mutations are blocked by default.
+
 ## Policies
 
 - [Terms of Service](docs/terms.md)
@@ -33,4 +55,4 @@ Early-access pricing is documented in [docs/offer.md](docs/offer.md).
 
 ## Status
 
-This repository is in setup phase. The first build target is a mock/demo mode, followed by a Jobber Developer Center OAuth test integration.
+This repository is in early implementation. The first usable target is a customer-hosted MCP server with local OAuth setup and read-only Jobber GraphQL access.
