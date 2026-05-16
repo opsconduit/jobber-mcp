@@ -6,6 +6,7 @@ OpsConduit helps owners and operators ask practical questions about the tools th
 
 Plain buyer-facing overview: [docs/index.md](docs/index.md).
 Common buyer questions are answered in [docs/faq.md](docs/faq.md).
+Example owner/operator prompts are in [docs/operator-prompts.md](docs/operator-prompts.md).
 
 ## What It Should Answer
 
