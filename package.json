@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node src/server.js",
     "auth": "node src/oauth-local.js",
+    "demo": "node scripts/demo-ops-summary.js",
     "check": "node scripts/check-syntax.js",
     "smoke": "node scripts/smoke-tools.js"
   },

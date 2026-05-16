@@ -15,6 +15,12 @@ OpsConduit helps owners and operators ask practical questions about the tools th
 
 More buyer-facing examples are in [docs/use-cases.md](docs/use-cases.md).
 
+A fictional sample output is available in [docs/demo-output.md](docs/demo-output.md), or run:
+
+```bash
+npm run demo
+```
+
 ## Product Posture
 
 - Customer-hosted first.
