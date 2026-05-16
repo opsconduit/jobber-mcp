@@ -32,6 +32,7 @@ The paid pilot setup is for customers who want help installing the connector, au
 - Pilot checklist: [pilot-checklist.md](pilot-checklist.md)
 - Handoff template: [pilot-deliverable-template.md](pilot-deliverable-template.md)
 - Jobber API notes: [jobber-api-notes.md](jobber-api-notes.md)
+- FAQ: [faq.md](faq.md)
 
 Email `opsconduit@gmail.com` with the subject `Jobber pilot`.
 

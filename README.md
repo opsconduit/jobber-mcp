@@ -5,6 +5,7 @@ Read-only MCP connector for Jobber field-service operations.
 OpsConduit helps owners and operators ask practical questions about the tools that run their business. This first connector is for Jobber and is designed to stay read-only by default.
 
 Plain buyer-facing overview: [docs/index.md](docs/index.md).
+Common buyer questions are answered in [docs/faq.md](docs/faq.md).
 
 ## What It Should Answer
 
