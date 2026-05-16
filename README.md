@@ -36,6 +36,8 @@ The paid pilot handoff format is documented in [docs/pilot-deliverable-template.
 
 Early-access pricing is documented in [docs/offer.md](docs/offer.md).
 
+For pilot setup, email `opsconduit@gmail.com` with the subject `Jobber pilot`. Do not send Jobber passwords, tokens, API secrets, or private customer data by email.
+
 ## Install
 
 Requires Node.js 20+.

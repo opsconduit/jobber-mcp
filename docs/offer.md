@@ -19,15 +19,19 @@ Use launch pricing until there are at least three paid customers or one strong r
 
 Do not lead cold outreach with every price. Lead with the problem and a demo/install-notes offer. Mention launch pricing only after interest or on the repo/landing material.
 
-## Payment Links To Create
+## How To Start
 
-Create Coinbase Commerce links for:
+Email `opsconduit@gmail.com` with the subject `Jobber pilot`.
 
-- OpsConduit Async Install Help - $149
-- OpsConduit Pilot Setup - $399
-- OpsConduit Monthly Maintenance - $79
+Include:
 
-If recurring links are not available, use a month-by-month $79 payment link and track renewals manually in the private ledger.
+- whether you already have a Jobber admin who can authorize an app
+- the MCP client you want to use, if known
+- the first read-only question you want answered, such as stale estimates, overdue invoices, or unscheduled jobs
+
+Do not email Jobber passwords, tokens, API secrets, customer exports, or private customer data.
+
+Payment links are sent after fit is confirmed. Stripe is preferred for card payments when available; Coinbase Commerce is available as backup.
 
 ## Boundaries
 
@@ -36,4 +40,3 @@ If recurring links are not available, use a month-by-month $79 payment link and 
 - No write actions without a separate explicit scope.
 - No customer credentials in GitHub issues, email threads, or docs.
 - No support for violating Jobber terms or bypassing access controls.
-
