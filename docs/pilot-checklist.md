@@ -44,3 +44,5 @@ At the end of the pilot, send the customer:
 - validation results
 - recommended next three owner/operator questions
 - maintenance option if they want compatibility checks
+
+Use [pilot-deliverable-template.md](pilot-deliverable-template.md) as the handoff format.

@@ -21,6 +21,8 @@ A fictional sample output is available in [docs/demo-output.md](docs/demo-output
 npm run demo
 ```
 
+The paid pilot handoff format is documented in [docs/pilot-deliverable-template.md](docs/pilot-deliverable-template.md).
+
 ## Product Posture
 
 - Customer-hosted first.
